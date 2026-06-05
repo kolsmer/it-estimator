@@ -1,0 +1,5 @@
+field,value
+project_name,CRM
+description,Система CRM с авторизацией и задачами
+feature,export csv
+feature,auth

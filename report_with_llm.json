@@ -1,0 +1,334 @@
+{
+  "input_project": {
+    "project_type": "ai_service",
+    "name": "AI‑система для автоматизации клиентских коммуникаций",
+    "description": "Техническое задание\nна разработку системы оптимизации подсортировки товарных остатков и пополнения розничной сети\nЗаказчик: Mavi Jeans\nПредмет автоматизации: распределение товарных остатков между центральным складом и розничными магазинами на основе данных из 1С:Управление торговлей\n1. Общая информация о проекте\n1.1. Наименование проекта\nРазработка системы автоматизированной оптимизации подсортировки товарных остатков и пополнения розничной сети.\n1.2. Цель проекта\nСоздать систему, которая автоматически рассчитывает оптимальный план распределения товарных остатков между центральным складом и магазинами розничной сети с учетом истории продаж, сезонности, коллекций, партий, ограничений магазинов и различий в локальном спросе.\n1.3. Основание для разработки\nНеобходимость повышения точности пополнения магазинов, снижения пересортицы и затоваривания, а также перевода процесса распределения товара из ручного или полуэкспертного режима в системный, математически обоснованный контур планирования",
+    "features": [],
+    "design_complexity": "medium",
+    "backend_complexity": "medium",
+    "frontend_complexity": "medium",
+    "target_platforms": [
+      "web"
+    ],
+    "integrations": [
+      "1c",
+      "telegram"
+    ],
+    "deadline_weeks": 20,
+    "currency": "RUB",
+    "similar_projects_found": 2
+  },
+  "estimation": {
+    "total_cost_rub": 1654200.0,
+    "total_hours": 400,
+    "duration_weeks": 20,
+    "team_size": 8,
+    "roles": [
+      {
+        "role": "project_manager",
+        "role_name": "Project Manager",
+        "seniority": "junior",
+        "seniority_name": "Junior",
+        "hours": 9,
+        "count": 1,
+        "total_hours": 9,
+        "rate_per_hour_rub": 2250.0,
+        "cost_rub": 20250.0
+      },
+      {
+        "role": "project_manager",
+        "role_name": "Project Manager",
+        "seniority": "middle",
+        "seniority_name": "Middle",
+        "hours": 16,
+        "count": 1,
+        "total_hours": 16,
+        "rate_per_hour_rub": 3600.0,
+        "cost_rub": 57600.0
+      },
+      {
+        "role": "project_manager",
+        "role_name": "Project Manager",
+        "seniority": "senior",
+        "seniority_name": "Senior",
+        "hours": 6,
+        "count": 1,
+        "total_hours": 6,
+        "rate_per_hour_rub": 5400.0,
+        "cost_rub": 32400.0
+      },
+      {
+        "role": "business_analyst",
+        "role_name": "Business Analyst",
+        "seniority": "junior",
+        "seniority_name": "Junior",
+        "hours": 8,
+        "count": 1,
+        "total_hours": 8,
+        "rate_per_hour_rub": 1800.0,
+        "cost_rub": 14400.0
+      },
+      {
+        "role": "business_analyst",
+        "role_name": "Business Analyst",
+        "seniority": "middle",
+        "seniority_name": "Middle",
+        "hours": 14,
+        "count": 1,
+        "total_hours": 14,
+        "rate_per_hour_rub": 3150.0,
+        "cost_rub": 44100.0
+      },
+      {
+        "role": "business_analyst",
+        "role_name": "Business Analyst",
+        "seniority": "senior",
+        "seniority_name": "Senior",
+        "hours": 5,
+        "count": 1,
+        "total_hours": 5,
+        "rate_per_hour_rub": 4950.0,
+        "cost_rub": 24750.0
+      },
+      {
+        "role": "data_scientist",
+        "role_name": "Data Scientist",
+        "seniority": "junior",
+        "seniority_name": "Junior",
+        "hours": 36,
+        "count": 1,
+        "total_hours": 36,
+        "rate_per_hour_rub": 2700.0,
+        "cost_rub": 97200.0
+      },
+      {
+        "role": "data_scientist",
+        "role_name": "Data Scientist",
+        "seniority": "middle",
+        "seniority_name": "Middle",
+        "hours": 60,
+        "count": 1,
+        "total_hours": 60,
+        "rate_per_hour_rub": 4950.0,
+        "cost_rub": 297000.0
+      },
+      {
+        "role": "data_scientist",
+        "role_name": "Data Scientist",
+        "seniority": "senior",
+        "seniority_name": "Senior",
+        "hours": 24,
+        "count": 1,
+        "total_hours": 24,
+        "rate_per_hour_rub": 7200.0,
+        "cost_rub": 172800.0
+      },
+      {
+        "role": "ml_engineer",
+        "role_name": "ML Engineer",
+        "seniority": "junior",
+        "seniority_name": "Junior",
+        "hours": 30,
+        "count": 1,
+        "total_hours": 30,
+        "rate_per_hour_rub": 2700.0,
+        "cost_rub": 81000.0
+      },
+      {
+        "role": "ml_engineer",
+        "role_name": "ML Engineer",
+        "seniority": "middle",
+        "seniority_name": "Middle",
+        "hours": 50,
+        "count": 1,
+        "total_hours": 50,
+        "rate_per_hour_rub": 4950.0,
+        "cost_rub": 247500.0
+      },
+      {
+        "role": "ml_engineer",
+        "role_name": "ML Engineer",
+        "seniority": "senior",
+        "seniority_name": "Senior",
+        "hours": 20,
+        "count": 1,
+        "total_hours": 20,
+        "rate_per_hour_rub": 7200.0,
+        "cost_rub": 144000.0
+      },
+      {
+        "role": "backend_developer",
+        "role_name": "Backend Developer",
+        "seniority": "junior",
+        "seniority_name": "Junior",
+        "hours": 18,
+        "count": 1,
+        "total_hours": 18,
+        "rate_per_hour_rub": 1800.0,
+        "cost_rub": 32400.0
+      },
+      {
+        "role": "backend_developer",
+        "role_name": "Backend Developer",
+        "seniority": "middle",
+        "seniority_name": "Middle",
+        "hours": 30,
+        "count": 1,
+        "total_hours": 30,
+        "rate_per_hour_rub": 4050.0,
+        "cost_rub": 121500.0
+      },
+      {
+        "role": "backend_developer",
+        "role_name": "Backend Developer",
+        "seniority": "senior",
+        "seniority_name": "Senior",
+        "hours": 12,
+        "count": 1,
+        "total_hours": 12,
+        "rate_per_hour_rub": 5850.0,
+        "cost_rub": 70200.0
+      },
+      {
+        "role": "frontend_developer",
+        "role_name": "Frontend Developer",
+        "seniority": "junior",
+        "seniority_name": "Junior",
+        "hours": 6,
+        "count": 1,
+        "total_hours": 6,
+        "rate_per_hour_rub": 1800.0,
+        "cost_rub": 10800.0
+      },
+      {
+        "role": "frontend_developer",
+        "role_name": "Frontend Developer",
+        "seniority": "middle",
+        "seniority_name": "Middle",
+        "hours": 10,
+        "count": 1,
+        "total_hours": 10,
+        "rate_per_hour_rub": 3600.0,
+        "cost_rub": 36000.0
+      },
+      {
+        "role": "frontend_developer",
+        "role_name": "Frontend Developer",
+        "seniority": "senior",
+        "seniority_name": "Senior",
+        "hours": 4,
+        "count": 1,
+        "total_hours": 4,
+        "rate_per_hour_rub": 5400.0,
+        "cost_rub": 21600.0
+      },
+      {
+        "role": "qa_engineer",
+        "role_name": "QA Engineer",
+        "seniority": "junior",
+        "seniority_name": "Junior",
+        "hours": 6,
+        "count": 1,
+        "total_hours": 6,
+        "rate_per_hour_rub": 1350.0,
+        "cost_rub": 8100.0
+      },
+      {
+        "role": "qa_engineer",
+        "role_name": "QA Engineer",
+        "seniority": "middle",
+        "seniority_name": "Middle",
+        "hours": 10,
+        "count": 1,
+        "total_hours": 10,
+        "rate_per_hour_rub": 2700.0,
+        "cost_rub": 27000.0
+      },
+      {
+        "role": "qa_engineer",
+        "role_name": "QA Engineer",
+        "seniority": "senior",
+        "seniority_name": "Senior",
+        "hours": 4,
+        "count": 1,
+        "total_hours": 4,
+        "rate_per_hour_rub": 4050.0,
+        "cost_rub": 16200.0
+      },
+      {
+        "role": "devops",
+        "role_name": "DevOps Engineer",
+        "seniority": "junior",
+        "seniority_name": "Junior",
+        "hours": 6,
+        "count": 1,
+        "total_hours": 6,
+        "rate_per_hour_rub": 2250.0,
+        "cost_rub": 13500.0
+      },
+      {
+        "role": "devops",
+        "role_name": "DevOps Engineer",
+        "seniority": "middle",
+        "seniority_name": "Middle",
+        "hours": 10,
+        "count": 1,
+        "total_hours": 10,
+        "rate_per_hour_rub": 4050.0,
+        "cost_rub": 40500.0
+      },
+      {
+        "role": "devops",
+        "role_name": "DevOps Engineer",
+        "seniority": "senior",
+        "seniority_name": "Senior",
+        "hours": 4,
+        "count": 1,
+        "total_hours": 4,
+        "rate_per_hour_rub": 5850.0,
+        "cost_rub": 23400.0
+      }
+    ],
+    "hourly_rate_avg_rub": 4135.5,
+    "stages": {
+      "discovery": {
+        "name": "Аналитика и проектирование",
+        "percentage": 0.15,
+        "cost_rub": 248130.0,
+        "duration_weeks": 1
+      },
+      "design": {
+        "name": "Дизайн",
+        "percentage": 0.2,
+        "cost_rub": 330840.0,
+        "duration_weeks": 2
+      },
+      "development": {
+        "name": "Разработка",
+        "percentage": 0.45,
+        "cost_rub": 744390.0,
+        "duration_weeks": 4
+      },
+      "testing": {
+        "name": "Тестирование",
+        "percentage": 0.15,
+        "cost_rub": 248130.0,
+        "duration_weeks": 1
+      },
+      "deployment": {
+        "name": "Развёртывание",
+        "percentage": 0.05,
+        "cost_rub": 82710.0,
+        "duration_weeks": 1
+      }
+    },
+    "project_name": "AI‑система для автоматизации клиентских коммуникаций",
+    "project_type": "ai_service",
+    "currency": "RUB",
+    "confidence_score": 0.7,
+    "similar_projects_found": 2,
+    "created_at": "2026-03-18T16:10:24.590026"
+  },
+  "llm_analysis": "1. Проект направлен на автоматизацию распределения товарных остатков между складом и магазинами с учетом сезонности, спроса и других факторов.  \n2. Риски: сложность интеграции с 1С, недостаточная точность прогнозов, нехватка исторических данных, сопротивление сотрудников к внедрению.  \n3. Рекомендации: внедрить agile-подход, использовать готовые ML-модели, провести пилотный запуск, оптимизировать коммуникацию между командами.  \n4. Сроки реалистичны, но требуют строгого контроля на этапах интеграции и тестирования.  \n5. Проект может повысить эффективность логистики, но требует внимания к данным и внедрению.",
+  "generated_at": "2026-03-18T16:14:17.495712"
+}

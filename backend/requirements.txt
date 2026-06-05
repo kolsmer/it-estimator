@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+python-multipart
+langchain-ollama
+langchain-core
+python-dotenv
+psycopg[binary]
+pypdf
+PyPDF2
+python-docx
+pandas
+openpyxl
+xlwt
+requests
+fpdf
+pytest
+httpx

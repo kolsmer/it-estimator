@@ -1,0 +1,396 @@
+{
+  "metadata": {
+    "version": "1.1",
+    "description": "Конфигурация для расчёта IT-проектов",
+    "currency": "RUB",
+    "last_updated": "2024-01-15"
+  },
+  "project_types": {
+    "website": {
+      "name": "Веб-сайт",
+      "base_hours": 80,
+      "description": "Лендинг, корпоративный сайт"
+    },
+    "web_app": {
+      "name": "Веб-приложение",
+      "base_hours": 200,
+      "description": "SPA, CRM, дашборды"
+    },
+    "mobile_app": {
+      "name": "Мобильное приложение",
+      "base_hours": 250,
+      "description": "iOS/Android приложение"
+    },
+    "ecommerce": {
+      "name": "Интернет-магазин",
+      "base_hours": 300,
+      "description": "Магазин с корзиной и оплатой"
+    },
+    "marketplace": {
+      "name": "Маркетплейс",
+      "base_hours": 400,
+      "description": "Площадка для продавцов и покупателей"
+    },
+    "crm": {
+      "name": "CRM система",
+      "base_hours": 350,
+      "description": "Управление взаимоотношениями с клиентами"
+    },
+    "erp": {
+      "name": "ERP система",
+      "base_hours": 600,
+      "description": "Управление ресурсами предприятия"
+    },
+    "api": {
+      "name": "API/Бэкенд",
+      "base_hours": 120,
+      "description": "REST/GraphQL API"
+    },
+    "chatbot": {
+      "name": "Чат-бот",
+      "base_hours": 150,
+      "description": "Telegram/WhatsApp бот"
+    },
+    "ai_service": {
+      "name": "AI сервис",
+      "base_hours": 400,
+      "description": "ML/AI решение"
+    },
+    "other": {
+      "name": "Другой проект",
+      "base_hours": 200,
+      "description": "Нестандартный проект"
+    }
+  },
+  "roles": {
+    "project_manager": {
+      "name": "Project Manager",
+      "description": "Управление проектом"
+    },
+    "business_analyst": {
+      "name": "Business Analyst",
+      "description": "Анализ требований"
+    },
+    "ux_ui_designer": {
+      "name": "UX/UI Designer",
+      "description": "Дизайн интерфейсов"
+    },
+    "frontend_developer": {
+      "name": "Frontend Developer",
+      "description": "Разработка клиентской части"
+    },
+    "backend_developer": {
+      "name": "Backend Developer",
+      "description": "Разработка серверной части"
+    },
+    "fullstack_developer": {
+      "name": "Fullstack Developer",
+      "description": "Фронтенд + бэкенд"
+    },
+    "mobile_developer": {
+      "name": "Mobile Developer",
+      "description": "Разработка мобильных приложений"
+    },
+    "devops": {
+      "name": "DevOps Engineer",
+      "description": "Инфраструктура и деплой"
+    },
+    "qa_engineer": {
+      "name": "QA Engineer",
+      "description": "Тестирование"
+    },
+    "data_scientist": {
+      "name": "Data Scientist",
+      "description": "Анализ данных"
+    },
+    "ml_engineer": {
+      "name": "ML Engineer",
+      "description": "Машинное обучение"
+    },
+    "architect": {
+      "name": "System Architect",
+      "description": "Архитектура системы"
+    }
+  },
+  "seniority_levels": {
+    "junior": {
+      "name": "Junior",
+      "experience_years": "0-2",
+      "multiplier": 0.6
+    },
+    "middle": {
+      "name": "Middle",
+      "experience_years": "2-5",
+      "multiplier": 1.0
+    },
+    "senior": {
+      "name": "Senior",
+      "experience_years": "5-8",
+      "multiplier": 1.5
+    },
+    "lead": {
+      "name": "Lead",
+      "experience_years": "8+",
+      "multiplier": 2.0
+    }
+  },
+  "complexity_levels": {
+    "low": {
+      "name": "Низкая",
+      "multiplier": 0.7,
+      "description": "Типовое решение, минимум интеграций"
+    },
+    "medium": {
+      "name": "Средняя",
+      "multiplier": 1.0,
+      "description": "Стандартная сложность"
+    },
+    "high": {
+      "name": "Высокая",
+      "multiplier": 1.5,
+      "description": "Сложная логика, много интеграций"
+    },
+    "critical": {
+      "name": "Критическая",
+      "multiplier": 2.2,
+      "description": "Высоконагруженная система, уникальные решения"
+    }
+  },
+  "rate_card_rub": {
+    "project_manager": {
+      "junior": 2250,
+      "middle": 3600,
+      "senior": 5400,
+      "lead": 7200
+    },
+    "business_analyst": {
+      "junior": 1800,
+      "middle": 3150,
+      "senior": 4950,
+      "lead": 6750
+    },
+    "ux_ui_designer": {
+      "junior": 1800,
+      "middle": 3150,
+      "senior": 4500,
+      "lead": 6300
+    },
+    "frontend_developer": {
+      "junior": 1800,
+      "middle": 3600,
+      "senior": 5400,
+      "lead": 7200
+    },
+    "backend_developer": {
+      "junior": 1800,
+      "middle": 4050,
+      "senior": 5850,
+      "lead": 7650
+    },
+    "fullstack_developer": {
+      "junior": 2250,
+      "middle": 4500,
+      "senior": 6750,
+      "lead": 8550
+    },
+    "mobile_developer": {
+      "junior": 1800,
+      "middle": 4050,
+      "senior": 5850,
+      "lead": 7650
+    },
+    "devops": {
+      "junior": 2250,
+      "middle": 4050,
+      "senior": 5850,
+      "lead": 7650
+    },
+    "qa_engineer": {
+      "junior": 1350,
+      "middle": 2700,
+      "senior": 4050,
+      "lead": 5400
+    },
+    "data_scientist": {
+      "junior": 2700,
+      "middle": 4950,
+      "senior": 7200,
+      "lead": 9000
+    },
+    "ml_engineer": {
+      "junior": 2700,
+      "middle": 4950,
+      "senior": 7200,
+      "lead": 9000
+    },
+    "architect": {
+      "senior": 8100,
+      "lead": 9900
+    }
+  },
+  "role_distribution": {
+    "website": {
+      "project_manager": 0.10,
+      "ux_ui_designer": 0.20,
+      "frontend_developer": 0.50,
+      "backend_developer": 0.10,
+      "qa_engineer": 0.10
+    },
+    "web_app": {
+      "project_manager": 0.10,
+      "business_analyst": 0.10,
+      "ux_ui_designer": 0.15,
+      "frontend_developer": 0.30,
+      "backend_developer": 0.20,
+      "qa_engineer": 0.10,
+      "devops": 0.05
+    },
+    "mobile_app": {
+      "project_manager": 0.10,
+      "ux_ui_designer": 0.20,
+      "mobile_developer": 0.50,
+      "backend_developer": 0.10,
+      "qa_engineer": 0.10
+    },
+    "ecommerce": {
+      "project_manager": 0.10,
+      "business_analyst": 0.10,
+      "ux_ui_designer": 0.15,
+      "frontend_developer": 0.25,
+      "backend_developer": 0.20,
+      "qa_engineer": 0.10,
+      "devops": 0.05,
+      "architect": 0.05
+    },
+    "marketplace": {
+      "project_manager": 0.10,
+      "business_analyst": 0.10,
+      "ux_ui_designer": 0.15,
+      "frontend_developer": 0.20,
+      "backend_developer": 0.25,
+      "qa_engineer": 0.10,
+      "devops": 0.05,
+      "architect": 0.05
+    },
+    "crm": {
+      "project_manager": 0.10,
+      "business_analyst": 0.15,
+      "ux_ui_designer": 0.10,
+      "frontend_developer": 0.25,
+      "backend_developer": 0.25,
+      "qa_engineer": 0.10,
+      "devops": 0.05
+    },
+    "erp": {
+      "project_manager": 0.10,
+      "business_analyst": 0.15,
+      "architect": 0.10,
+      "frontend_developer": 0.15,
+      "backend_developer": 0.30,
+      "qa_engineer": 0.10,
+      "devops": 0.05,
+      "data_scientist": 0.05
+    },
+    "api": {
+      "project_manager": 0.10,
+      "backend_developer": 0.60,
+      "qa_engineer": 0.15,
+      "devops": 0.10,
+      "architect": 0.05
+    },
+    "chatbot": {
+      "project_manager": 0.10,
+      "backend_developer": 0.40,
+      "frontend_developer": 0.20,
+      "qa_engineer": 0.15,
+      "devops": 0.10,
+      "ml_engineer": 0.05
+    },
+    "ai_service": {
+      "project_manager": 0.08,
+      "business_analyst": 0.07,
+      "data_scientist": 0.30,
+      "ml_engineer": 0.25,
+      "backend_developer": 0.15,
+      "frontend_developer": 0.05,
+      "qa_engineer": 0.05,
+      "devops": 0.05
+    },
+    "other": {
+      "project_manager": 0.15,
+      "business_analyst": 0.10,
+      "ux_ui_designer": 0.10,
+      "frontend_developer": 0.20,
+      "backend_developer": 0.20,
+      "qa_engineer": 0.10,
+      "devops": 0.05,
+      "architect": 0.10
+    }
+  },
+  "seniority_distribution": {
+    "low": {
+      "junior": 0.6,
+      "middle": 0.3,
+      "senior": 0.1,
+      "lead": 0.0
+    },
+    "medium": {
+      "junior": 0.3,
+      "middle": 0.5,
+      "senior": 0.2,
+      "lead": 0.0
+    },
+    "high": {
+      "junior": 0.1,
+      "middle": 0.4,
+      "senior": 0.4,
+      "lead": 0.1
+    },
+    "critical": {
+      "junior": 0.0,
+      "middle": 0.2,
+      "senior": 0.5,
+      "lead": 0.3
+    }
+  },
+  "project_stages": {
+    "discovery": {
+      "name": "Аналитика и проектирование",
+      "percentage": 0.15,
+      "duration_weeks": 1
+    },
+    "design": {
+      "name": "Дизайн",
+      "percentage": 0.20,
+      "duration_weeks": 2
+    },
+    "development": {
+      "name": "Разработка",
+      "percentage": 0.45,
+      "duration_weeks": 4
+    },
+    "testing": {
+      "name": "Тестирование",
+      "percentage": 0.15,
+      "duration_weeks": 1
+    },
+    "deployment": {
+      "name": "Развёртывание",
+      "percentage": 0.05,
+      "duration_weeks": 1
+    }
+  },
+  "confidence_factors": {
+    "base_confidence": 0.5,
+    "per_similar_project": 0.05,
+    "max_similar_projects_boost": 0.3,
+    "deadline_boost": 0.1,
+    "budget_boost": 0.1
+  },
+  "calculation_rules": {
+    "hours_per_week": 40,
+    "feature_base_hours": 20,
+    "min_team_size_roles": true,
+    "rounding_precision": 2
+  }
+}

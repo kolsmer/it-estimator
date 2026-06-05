@@ -1,0 +1,9 @@
+.git
+.venv
+**/__pycache__
+**/*.pyc
+frontend/.next
+frontend/node_modules
+test-main/.next
+test-main/node_modules
+*.log

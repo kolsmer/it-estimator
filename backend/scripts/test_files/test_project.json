@@ -1,0 +1,1 @@
+{"project_name":"CRM","description":"Система CRM с авторизацией, задачами и экспортом CSV","features":["auth","tasks","export"],"stack":["FastAPI","Next.js","PostgreSQL"]}

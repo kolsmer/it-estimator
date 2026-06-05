@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "project_name": "my_it_project",
+    "root_path": "my_it_project",
+    "collected_at": "2026-03-11T15:52:21.263999",
+    "file_count": 1,
+    "dir_count": 1
+  },
+  "files": [],
+  "structure": [
+    {
+      "path": ".",
+      "dirs": [],
+      "files": [
+        "Бизнес требования.docx"
+      ]
+    }
+  ],
+  "logs": []
+}
